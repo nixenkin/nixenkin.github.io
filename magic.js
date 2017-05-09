@@ -247,6 +247,6 @@ $(document).ready(function() {
   $("*[tabindex='217']").find('input').get(0).checked = true;
   $("*[tabindex='218']").find('input').get(0).checked = true;
   }, 30950);
-  setTimeout(function(){ $("*[tabindex='219']").prop('disabled', false).focus().val("email"); }, 31200);
+  setTimeout(function(){ $("*[tabindex='219']").prop('disabled', false).focus().val("email me"); }, 31200);
 });
 
